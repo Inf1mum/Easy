@@ -1,0 +1,103 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* For all level
+-------------------------------------------------- */
+
+blockquote {
+    background: #f7f7f7;
+    border-left: 1px solid #bbb;
+    font-style: italic;
+    margin: 1.5em 10px;
+    padding-bottom: 25px !important;
+}
+.quote{
+  padding: 20px;
+  background-color: white;
+  position: relative;
+}
+.task{
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  margin-top: 10px;
+  align-items: center;
+}
+.input{
+  padding: 20px;
+  background-color: white;
+  margin-top: 10px;
+}
+blockquote > p{
+  position: absolute;
+  right: 25px;
+}
+.input{
+    text-align: center;
+}
+/* For contact and how to play
+-------------------------------------------------- */
+
+h3{
+  text-align: center;
+  font-style: italic;
+}
+
+
+/* For lvl 1
+-------------------------------------------------- */
+.mImage{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+.sImage{
+  position: absolute;
+  opacity: 0;
+  top: 45%; 
+  left: 48%;
+  height: 4%;
+  width: 4%;
+}
+.firstCut{
+  cursor: url(img/lvl1/Ax1.png), auto;
+}
+.secondCut{
+  cursor: url(img/lvl1/Ax2.png), auto;
+}
+
+
