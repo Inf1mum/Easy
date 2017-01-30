@@ -38,8 +38,10 @@ body > .container {
 -------------------------------------------------- */
 
 blockquote {
-    background-color: #f7f7f7;
+    background: #f7f7f7;
+    border-left: 1px solid #bbb;
     font-style: italic;
+    margin: 1.5em 10px;
     padding-bottom: 25px !important;
 }
 .quote{
@@ -65,9 +67,6 @@ blockquote > p{
 }
 .input{
     text-align: center;
-}
-.unit{
-  background-color: ;
 }
 /* For contact and how to play
 -------------------------------------------------- */
